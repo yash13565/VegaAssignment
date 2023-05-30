@@ -133,13 +133,6 @@ function CaptionPage() {
     return removeEventListeners;
   }, [state]);
 
-  // const saveImageToLocal = () => {
-  //   const link = document.createElement('a');
-  //   link.download = 'canvas.png';
-  //   link.href = canvasRef.current.toDataURL('image/png');
-  //   link.click();
-  // };
-
   return (
     <div>
       <div className={style.header}>
